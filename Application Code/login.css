@@ -1,0 +1,80 @@
+form {
+    border: 3px khaki;
+}
+
+.header {
+    text-align: center;
+    font-size: 65px;
+    font-style: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px sandybrown;
+    box-sizing: border-box;
+}
+
+img {
+    margin-top: -1px;
+}
+
+button {
+    background-color: tan;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 300px;
+    border: tan;
+    cursor: pointer;
+    width: 30%;
+}
+
+#icon {
+    font-size: 20px;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 300px;
+    border: tan;
+    cursor: pointer;
+    width: 30%;
+    text-decoration: none;
+    background-color: goldenrod;
+    overflow: hidden;
+    display: inline;
+    border-radius: 25px;
+    width: 100px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 14px 20px;
+    margin-left: 20px;
+    background-color: tan;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.smit {
+    width: 45%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 8px;
+}
+
+.span.psw {
+    float: right;
+}
